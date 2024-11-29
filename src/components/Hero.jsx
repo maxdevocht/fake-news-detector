@@ -4,16 +4,16 @@ const Hero = () => {
       <div className="text-center">
         <div className="relative mb-10 px-0 lg:px-20">
           <img
-            src="./src/assets/sparkle.png"
+            src="./../../public/assets/sparkle.png"
             alt="sparkle image"
             className="absolute -top-10 right-0 md:right-10 w-12 h-12 lg:w-20 md:w-10 lg:h-20 md:h-10"
             width={80}
             height={80}
           />
           <img
-            src="./src/assets/sparkle.png"
+            src="./../../public/assets/sparkle.png"
             alt="sparkle image"
-            className="absolute -bottom-10 -left-5 md:left-10 w-12 h-12 lg:w-20 md:w-10 lg:h-20 md:h-10 opacity-100"
+            className="absolute -bottom-16 -left-5 md:left-10 w-12 h-12 lg:w-20 md:w-10 lg:h-20 md:h-10 opacity-100"
             width={80}
             height={80}
           />
