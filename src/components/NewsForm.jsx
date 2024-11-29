@@ -74,6 +74,7 @@ const NewsForm = () => {
           baseBg="#c381b5"
           textColor="black"
           borderColor="black"
+          className="px-4"
         >
           <h2 className="text-xl font-bold">Analysis Result:</h2>
           {analysisResult.error ? (
@@ -89,8 +90,13 @@ const NewsForm = () => {
           )}
         </Popup>
       )}
-      <Popup isOpen={openAlertPopup} onClose={closeAlertPopup} baseBg="red">
-        <div className="p-4 text-center">
+      <Popup
+        isOpen={openAlertPopup}
+        onClose={closeAlertPopup}
+        baseBg="red"
+        className="px-4"
+      >
+        <div className="p-0 md:p-4 text-center">
           <p className="text-black mb-4">{alertMessage}</p>
         </div>
       </Popup>
