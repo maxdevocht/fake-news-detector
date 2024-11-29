@@ -2,9 +2,18 @@ const Navbar = () => {
   return (
     <nav className="w-full mb-4 flex items-center justify-between">
       <h1 className="text-2xl font-bold">UnFake</h1>
-      <a href="#" className="text-2xl font-bold underline hover:no-underline">
-        Github
-      </a>
+      <div className="flex items-center gap-12">
+        <img
+          src="./src/assets/sun.svg"
+          alt="sun icon"
+          className="text-2xl font-bold"
+          width={32}
+          height={32}
+        />
+        <a href="#" className="text-2xl font-bold underline hover:no-underline">
+          Github
+        </a>
+      </div>
     </nav>
   );
 };
