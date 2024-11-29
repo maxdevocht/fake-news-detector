@@ -4,7 +4,7 @@ const Navbar = () => {
       <h1 className="text-xl md:text-2xl font-bold">UnFake</h1>
       <div className="flex items-center gap-4 md:gap-12">
         <img
-          src="./../../public/assets/sun.svg"
+          src="./../../public/sun.svg"
           alt="sun icon"
           className="text-xl md:text-2xl font-bold"
           width={32}
