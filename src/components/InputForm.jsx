@@ -1,6 +1,6 @@
 const InputForm = ({ inputText, setInputText, onAnalyze }) => {
   return (
-    <div className="flex flex-col items-center p-4">
+    <div className="flex flex-col items-center px-20">
       <textarea
         className="w-full p-2 border rounded-lg shadow-sm focus:ring focus:ring-blue-300"
         rows="6"
